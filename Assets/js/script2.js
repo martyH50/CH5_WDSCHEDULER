@@ -12,8 +12,7 @@ $(document).ready(function () {
        
      
         localStorage.setItem("time", "data");
-    console.log(time,data)
-      
+         
     })
    
     function timeTracker() {
