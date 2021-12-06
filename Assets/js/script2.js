@@ -10,10 +10,9 @@ $(document).ready(function () {
         var data = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
        
-
-        
-        localStorage.setItem(time, data);
-        console.log(localStorage)
+     
+        localStorage.setItem("time", "data");
+    console.log(time,data)
       
     })
    
@@ -45,7 +44,6 @@ $(document).ready(function () {
         })
     }
 
-    // Get item from local storage if any
     $("#hour6 .description").val(localStorage.getItem("hour6"));
     $("#hour7 .description").val(localStorage.getItem("hour7"));
     $("#hour8 .description").val(localStorage.getItem("hour8"));
